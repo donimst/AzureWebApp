@@ -16,10 +16,11 @@
  </style>
  </head>
  <body>
- <h1>Are you a football fans ? Register here!</h1>
 
- <a href="cv.php" style="float: right;">Test Using CV Image Analyzing</a>
-
+ <div>
+    <h1>Are you a football fans ? Register here!</h1>
+    <a href="cv.php" style="float: right;">Test Using CV Image Analyzing</a>
+ </div>
  <p>Fill in your name and your favorite football club, then click <strong>Submit</strong> to register.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Your Name  <input type="text" name="name" id="name"/></br></br>
