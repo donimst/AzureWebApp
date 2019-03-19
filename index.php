@@ -17,7 +17,7 @@
  </head>
  <body>
  <h1>Are you a football fans ? Register here!</h1>
- <a href="cv.php">Test Using CV Image Analyzing</a>
+ <h4>or want to try use CV Image Analyzing <a href="cv.php">Test Using CV Image Analyzing</a>here</h4>
  </div>
  <p>Fill in your name and your favorite football club, then click <strong>Submit</strong> to register.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
