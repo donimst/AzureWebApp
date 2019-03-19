@@ -18,7 +18,7 @@
  <body>
 
  <div>
-    <h1>Are you a football fans ? Register here!</h1>
+    <h1 style="float: left;">Are you a football fans ? Register here!</h1>
     <a href="cv.php" style="float: right;">Test Using CV Image Analyzing</a>
  </div>
  <p>Fill in your name and your favorite football club, then click <strong>Submit</strong> to register.</p>
