@@ -1,6 +1,6 @@
 <html>
  <head>
- <Title>Registration Form</Title>
+ <Title>Fans Registration Form</Title>
  <style type="text/css">
  	body { background-color: #fff; border-top: solid 10px #000;
  	    color: #333; font-size: .85em; margin: 20; padding: 20;
@@ -16,10 +16,10 @@
  </style>
  </head>
  <body>
- <h1>Register here!</h1>
- <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+ <h1>Are you a football fans ? Register here!</h1>
+ <p>Fill in your name and your favorite football club, then click <strong>Submit</strong> to register.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
-       Fans Name  <input type="text" name="name" id="name"/></br></br>
+       Your Name  <input type="text" name="name" id="name"/></br></br>
        Club Name <input type="text" name="club" id="club"/></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
@@ -54,7 +54,7 @@
             echo "Failed: " . $e;
         }
 
-        echo "<h3>Your're registered!</h3>";
+        echo "<h3>You're registered!</h3>";
     } else if (isset($_POST['load_data'])) {
         try {
             $sql_select = "SELECT * FROM Fandom";
