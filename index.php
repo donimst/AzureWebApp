@@ -69,7 +69,7 @@
                 foreach($registrants as $registrant) {
                     echo "<tr><td>".$registrant['FansName']."</td>";
                     echo "<td>".$registrant['ClubName']."</td>";
-                    echo "<td>".$registrant['Postdate']."</td></tr>";
+                    echo "<td>".$registrant['PostedDate']."</td></tr>";
                 }
                 echo "</table>";
             } else {
